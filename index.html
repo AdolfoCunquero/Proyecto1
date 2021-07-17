@@ -12,15 +12,15 @@
 
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
-	
+	<link rel="icon" href="img/icon.ico">
 </head>
 <body>
 
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
   <div class="container-fluid custom-nav-p">
     <a class="navbar-brand" href="#">
-		Tecno Global
+		  <img src="img/TecnoGlobal2.png" class="p-0" width="30"/>
 	</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -31,18 +31,23 @@
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#">Quienes somos</a>
+          <a class="nav-link" aria-current="page" href="#quienes_somos">Quienes somos</a>
         </li>
-		<li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#">Nuestros servicios</a>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#nuestros_servicios">Nuestros servicios</a>
         </li>
-		
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#contacto">Contactanos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="productos.html">Productos</a>
+        </li>
       </ul>
     </div>
   </div>
 </nav>
 
-<div class="">
+<div class="mt-50">
 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -53,7 +58,7 @@
     <div class="carousel-item active h-600">
       <img src="img/cover.png" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block custom-carousel-caption">
-	  	
+        <img src="img/TecnoGlobal.png" width="250"/>
         <h2>Venta de equipo de computacion</h2>
         <p>Some representative placeholder content for the first slide.</p>
       </div>
@@ -61,6 +66,7 @@
     <div class="carousel-item h-600">
       <img src="img/cover.png" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block custom-carousel-caption">
+        <img src="img/TecnoGlobal.png" width="250"/>
         <h2>Mantenimiento y reparacion</h2>
         <p>Some representative placeholder content for the second slide.</p>
       </div>
@@ -68,6 +74,7 @@
     <div class="carousel-item h-600">
       <img src="img/cover.png" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block custom-carousel-caption">
+        <img src="img/TecnoGlobal.png" width="250"/>
         <h2>Soporte tecnico</h2>
         <p>Some representative placeholder content for the third slide.</p>
       </div>
@@ -85,8 +92,9 @@
 </div>
 
 <div class="b-example-divider"></div>
+<div>
+  <div class="container px-4 py-5" id="quienes_somos" style="padding-top:75px !important;">
 
-<div class="container px-4 py-5" id="hanging-icons">
     <h2 class="pb-2 border-bottom">Quienes somos</h2>
     <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
       <div class="col d-flex align-items-start">
@@ -118,7 +126,8 @@
         </div>
       </div>
     </div>
-	<div class="row">
+	
+  <div class="row">
 		<div class="col-md-12">
 		  <h2>Nuestra historia</h2>
           <p>
@@ -126,17 +135,23 @@
 		  </p>
 		</div>
 	</div>
-  </div>
+
+  <div class="row">
+		<div class="col-md-8 mx-auto">
+		  <img src="img/mision-vision-valores.jpg"/>
+		</div>
+	</div>
+</div>
 
 <div class="b-example-divider"></div>
 	
 
 
-<div class="container px-4 py-5" id="icon-grid">
+<div class="container px-4 py-5" id="nuestros_servicios" style="padding-top:75px !important;">
     <h2 class="pb-2 border-bottom">Nuestros servicios</h2>
 
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 g-4 py-5">
-	  <div class="col d-flex align-items-start">
+	    <div class="col d-flex align-items-start">
         <i class="fas fa-memory me-3 custom-icon-size"></i>
         <div>
           <h4 class="fw-bold mb-0">Venta de equipo de computacion</h4>
@@ -144,7 +159,7 @@
         </div>
       </div>
       <div class="col d-flex align-items-start">
-		<i class="fas fa-laptop-medical me-3 custom-icon-size"></i>
+		    <i class="fas fa-laptop-medical me-3 custom-icon-size"></i>
         <div>
           <h4 class="fw-bold mb-0">Soporte tecnico</h4>
           <p>Paragraph of text beneath the heading to explain the heading.</p>
@@ -179,14 +194,105 @@
         </div>
       </div>
     </div>
+
+    
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 g-4 py-5">
+	    <div class="col d-flex align-items-start">
+        <div>
+          <img src="img/update.jpg" width="350" height="200"/>
+        </div>
+      </div>
+
+      <div class="col d-flex align-items-start">
+        <div>
+          <img src="img/mantenimiento.jpg" width="350" height="200"/>
+        </div>
+      </div>
+
+
+      <div class="col d-flex align-items-start">
+        <div>
+          <img src="img/impresoras.jpg" width="350" height="200"/>
+        </div>
+      </div>
+    </div>
+
+
+
+
   </div>
+
+<div class="b-example-divider"></div>
+	
+<div>
+  <div class="container px-4 py-5" id="contacto" style="padding-top:75px !important;">
+
+    <h2 class="pb-2 border-bottom">Contactanos</h2>
+    <div clas="row">
+      <div class="col-md-12">
+
+
+        <form class="mt-4">
+        <div class="mb-3">
+          <div class="form-floating">
+            <input type="email" class="form-control" id="floatingInputValue" placeholder="name@example.com" value="">
+            <label for="floatingInputValue">Correo</label>
+            
+          </div>
+        </div>
+        <div class="mb-3">
+          <div class="form-floating">
+            <textarea style="height: 100px" class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+            <label for="floatingTextarea">Comentario</label>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+
+
+
+
+      </div>
+    </div>
+	
+</div>
 
 <footer class="footer mt-auto py-3 bg-light">
   <div class="container">
-    <span class="text-muted">Place sticky footer content here.</span>
+    <div class="row">
+      <div class="col-md-6">
+        Direccion de las oficinas centrales
+      </div>
+      <div class="col-md-6">
+        <i class="fas fa-envelope"></i> Correo: support@tecnog.com
+      </div>
+    </div>
+    <div class="row mt-2">
+      <div class="col-md-6">
+        
+      </div>
+      <div class="col-md-6">
+        <i class="fab fa-facebook"></i> Tecno Global GT
+      </div>
+    </div>
+
+    <div class="row mt-2">
+      <div class="col-md-6 offset-6">
+        <i class="fab fa-instagram"></i> Tecno Global
+      </div>
+    </div>
+
+    <div class="row mt-2">
+      <div class="col-md-6 offset-6">
+        <i class="fab fa-whatsapp"></i> +502 12345678
+      </div>
+    </div>
   </div>
 </footer>
 
+
+
+      
 </body> 
 </html>
 
