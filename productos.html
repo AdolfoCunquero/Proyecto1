@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+	<title>Tecno Global</title>
+	<link href="css/custom.css" rel="stylesheet">
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/sidebars.css" rel="stylesheet">
+	<link href="fontawesome/css/all.min.css" rel="stylesheet">
+    <meta name="theme-color" content="#7952b3">
+	
+	<script type="text/javascript" src="fontawesome/js/all.min.js"></script>
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+	<link rel="icon" href="img/icon.ico">
+</head>
+<body>
+
+<script>
+/* global bootstrap: false */
+    (function () {
+    'use strict'
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    tooltipTriggerList.forEach(function (tooltipTriggerEl) {
+        new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+    })()
+</script>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container-fluid custom-nav-p">
+    <a class="navbar-brand" href="#">
+		  <img src="img/TecnoGlobal2.png" class="p-0" width="30"/>
+	</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="index.html#quienes_somos">Quienes somos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="index.html#nuestros_servicios">Nuestros servicios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="index.html#contacto">Contactanos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="productos.html">Productos</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+<div class="container-fluid mt-75">
+    <div class="row flex-nowrap">
+        <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-white">
+            
+            <div class="flex-shrink-0 p-3 bg-white" style="width: 225px;">
+                <a href="index.html" class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
+                <span class="fs-5 fw-semibold">Tecno Global</span>
+                </a>
+                <ul class="list-unstyled ps-0">
+                <li class="mb-1">
+                    <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                     Computadoras
+                    </button>
+                    <div class="collapse show" id="home-collapse">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                        <li><a href="#" class="link-dark rounded">Escritorio</a></li>
+                        <li><a href="#" class="link-dark rounded">Laptop</a></li>
+                        <li><a href="#" class="link-dark rounded">Todo en uno</a></li>
+                    </ul>
+                    </div>
+                </li>
+                <li class="mb-1">
+                    <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+                        Disco Duro
+                    </button>
+                    <div class="collapse" id="dashboard-collapse">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                        <li><a href="#" class="link-dark rounded">SSD</a></li>
+                        <li><a href="#" class="link-dark rounded">Generico</a></li>
+                    </ul>
+                    </div>
+                </li>
+                <li class="mb-1">
+                    <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
+                    Teclados
+                    </button>
+                    <div class="collapse" id="orders-collapse">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                        <li><a href="#" class="link-dark rounded">New</a></li>
+                        <li><a href="#" class="link-dark rounded">Processed</a></li>
+                        <li><a href="#" class="link-dark rounded">Shipped</a></li>
+                        <li><a href="#" class="link-dark rounded">Returned</a></li>
+                    </ul>
+                    </div>
+                </li>
+                
+                <li class="mb-1">
+                    <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false">
+                    Memorias
+                    </button>
+                    <div class="collapse" id="account-collapse">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                        <li><a href="#" class="link-dark rounded">New...</a></li>
+                        <li><a href="#" class="link-dark rounded">Profile</a></li>
+                        <li><a href="#" class="link-dark rounded">Settings</a></li>
+                        <li><a href="#" class="link-dark rounded">Sign out</a></li>
+                    </ul>
+                    </div>
+                </li>
+                </ul>
+            </div>
+
+
+
+        </div>
+        <div class="col py-3">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1>Nuestros productos</h1>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="input-group mb-3 pt-2">
+                            <input type="text" class="form-control" placeholder="Producto..." aria-label="Producto" aria-describedby="button-addon2">
+                            <button class="btn btn-primary" type="button" id="button-addon2">
+                                <i class="fas fa-search"></i> Buscar
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-md-1 pt-2" >
+                        <button type="button" class="btn btn-primary position-relative">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
+                                0
+                                <span class="visually-hidden">unread messages</span>
+                            </span>
+                        </button>
+
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <div class="card p-2"  style="height:550px;">
+                            <img src="img/producto1.jpg" class="card-img-top" alt="Producto">
+                            <div class="card-body">
+                                <h5 class="card-title">Dell Inspiron 3583 15</h5>
+                                <p class="card-text">Dell Inspiron 3583 15” Laptop Intel Celeron – 128GB SSD – 4GB DDR4 – 1.6GHz - Intel UHD Graphics 610 - Windows 10 Home - Inspiron 15 3000 Series - New</p>
+                                <p>Precio Normal: 3,000</p>
+                                <p style="color:blue"><strong>Tecno descuento: 2,500</strong></p>
+                                <button class="btn btn-primary btn-sm float-end">
+                                    <i class="fas fa-shopping-cart"></i> Agregar al carrito
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card p-2" style="height:550px;">
+                            <img src="img/producto2.jpg" class="card-img-top" alt="Producto">
+                            <div class="card-body">
+                                <h5 class="card-title">Lenovo Chromebook Flex 5 13</h5>
+                                <p class="card-text">Lenovo Chromebook Flex 5 13" Laptop, FHD (1920 x 1080) Touch Display, Intel Core i3-10110U Processor, 4GB DDR4 Onboard RAM, 64GB eMMC, Intel Integrated Graphics</p>
+                                <p>Precio Normal: 3,000</p>
+                                <p style="color:blue"><strong>Tecno descuento: 2,500</strong></p>
+                                <button class="btn btn-primary btn-sm float-end">
+                                    <i class="fas fa-shopping-cart"></i> Agregar al carrito
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card p-2" style="height:550px;">
+                            <img src="img/producto3.jpg" class="card-img-top" alt="Producto">
+                            <div class="card-body">
+                                <h5 class="card-title">SAMSUNG Galaxy Chromebook 4</h5>
+                                <p class="card-text">SAMSUNG Galaxy Chromebook 4 11.6-inch 64GB eMMC, 4GB RAM, Gigabit Wi-Fi, Chrome OS, HD Intel Celeron Processor N4000</p>
+                                <p>Precio Normal: 3,000</p>
+                                <p style="color:blue"><strong>Tecno descuento: 2,500</strong></p>
+                                <button class="btn btn-primary btn-sm float-end">
+                                    <i class="fas fa-shopping-cart"></i> Agregar al carrito
+                                </button>
+                            </div>
+                        </div>
+                    </div>            
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div style="height:75px;">
+</div>
+
+<footer class="footer mt-auto py-3 bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <i class="fas fa-map-marker-alt"></i> Direccion de las oficinas centrales
+      </div>
+      <div class="col-md-6">
+        <i class="fas fa-envelope"></i> support@tecnoglobal.com
+      </div>
+    </div>
+    <div class="row mt-2">
+      <div class="col-md-6">
+        
+      </div>
+      <div class="col-md-6">
+        <i class="fab fa-facebook"></i> Tecno Global GT
+      </div>
+    </div>
+
+    <div class="row mt-2">
+      <div class="col-md-6 offset-6">
+        <i class="fab fa-instagram"></i> Tecno Global
+      </div>
+    </div>
+
+    <div class="row mt-2">
+      <div class="col-md-6 offset-6">
+        <i class="fab fa-whatsapp"></i> +502 12345678
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+</body>
