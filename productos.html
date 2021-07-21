@@ -3,16 +3,27 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-	<title>Tecno Global</title>
+	<title>Productos</title>
 	<link href="css/custom.css" rel="stylesheet">
 	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/sidebars.css" rel="stylesheet">
+  <link href="css/sidebars.css" rel="stylesheet">
 	<link href="fontawesome/css/all.min.css" rel="stylesheet">
-    <meta name="theme-color" content="#7952b3">
-
+  <meta name="theme-color" content="#7952b3">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-05HJPHCN41"></script>
 	<link rel="icon" href="img/icon.ico">
 </head>
 <body>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-05HJPHCN41');
+</script>
+
 
 <script>
 /* global bootstrap: false */
@@ -126,23 +137,23 @@
 
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-sm-12">
                         <h1>Nuestros productos</h1>
                     </div>
                     <div class="col-md-5">
-                        <div class="input-group mb-3 pt-2">
+                        <div class="input-group col-sm-12 mb-3 pt-2">
                             <input type="text" class="form-control" placeholder="Producto..." aria-label="Producto" aria-describedby="button-addon2">
                             <button class="btn btn-primary" type="button" id="button-addon2">
                                 <i class="fas fa-search"></i> Buscar
                             </button>
                         </div>
                     </div>
-                    <div class="col-md-1 pt-2" >
+                    <div class="col-md-1 col-sm-12 pt-2" >
                         <button type="button" class="btn btn-primary position-relative">
                             <i class="fas fa-shopping-cart"></i>
                             <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
                                 0
-                                <span class="visually-hidden">unread messages</span>
+                                <span class="visually-hidden">Productos</span>
                             </span>
                         </button>
 
