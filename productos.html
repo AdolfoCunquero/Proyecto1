@@ -6,10 +6,9 @@
 	<title>Productos</title>
 	<link href="css/custom.css" rel="stylesheet">
 	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/sidebars.css" rel="stylesheet">
+    <link href="css/sidebars.css" rel="stylesheet">
 	<link href="fontawesome/css/all.min.css" rel="stylesheet">
-  <meta name="theme-color" content="#7952b3">
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-05HJPHCN41"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-05HJPHCN41"></script>
 	<link rel="icon" href="img/icon.ico">
 </head>
 <body>
@@ -62,6 +61,28 @@
           <a class="nav-link active" aria-current="page" href="productos.html">Productos</a>
         </li>
       </ul>
+
+        <span class="navbar-text" style="color:white !important; padding:0px;">
+        
+        <ul class="order-1 order-md-3 navbar-nav navbar-no-expand ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.facebook.com/" role="button" target="_blank">
+                <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.instagram.com/" role="button" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://google.com/" role="button" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+          </li>
+        </ul>
+      </span>
+
     </div>
   </div>
 </nav>
@@ -79,14 +100,14 @@
                 <ul class="list-unstyled ps-0">
                 <li class="mb-1">
                     <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#computers-collapse" aria-expanded="true">
-                     Computadoras
+                        Computadoras
                     </button>
                     <div class="collapse show" id="computers-collapse">
-                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                        <li><a href="#" class="link-dark rounded">Escritorio</a></li>
-                        <li><a href="#" class="link-dark rounded">Laptop</a></li>
-                        <li><a href="#" class="link-dark rounded">Todo en uno</a></li>
-                    </ul>
+                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                            <li><a href="#escritorio" class="link-dark rounded">Escritorio</a></li>
+                            <li><a href="#laptop" class="link-dark rounded">Laptop</a></li>
+                            <li><a href="#all-in-one" class="link-dark rounded">Todo en uno</a></li>
+                        </ul>
                     </div>
                 </li>
                 <li class="mb-1">
@@ -95,9 +116,9 @@
                     </button>
                     <div class="collapse" id="hard-disk-collapse">
                     <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                        <li><a href="#" class="link-dark rounded">SSD</a></li>
-                        <li><a href="#" class="link-dark rounded">Generico</a></li>
-                        <li><a href="#" class="link-dark rounded">Externos</a></li>
+                        <li><a href="#disco-ssd" class="link-dark rounded">SSD</a></li>
+                        <li><a href="#disco-generico" class="link-dark rounded">Generico</a></li>
+                        <li><a href="#disco-externos" class="link-dark rounded">Externos</a></li>
                     </ul>
                     </div>
                 </li>
@@ -106,10 +127,10 @@
                     Teclados
                     </button>
                     <div class="collapse" id="teclados-collapse">
-                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                        <li><a href="#" class="link-dark rounded">Normal</a></li>
-                        <li><a href="#" class="link-dark rounded">Mecanicos</a></li>
-                    </ul>
+                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                            <li><a href="#teclado-normal" class="link-dark rounded">Normal</a></li>
+                            <li><a href="#teclado-mecanico" class="link-dark rounded">Mecanicos</a></li>
+                        </ul>
                     </div>
                 </li>
                 
@@ -143,9 +164,9 @@
                     </button>
                     <div class="collapse" id="printer-collapse">
                     <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                        <li><a href="#" class="link-dark rounded">Normal</a></li>
-                        <li><a href="#" class="link-dark rounded">Multifuncional</a></li>
-                        <li><a href="#" class="link-dark rounded">Laser</a></li>
+                        <li><a href="#impresora-normal" class="link-dark rounded">Normal</a></li>
+                        <li><a href="#impresora-multifuncional" class="link-dark rounded">Multifuncional</a></li>
+                        <li><a href="#impresora-laser" class="link-dark rounded">Laser</a></li>
                     </ul>
                     </div>
                 </li>
@@ -230,7 +251,7 @@
                       </div>
                     </div>
                 </div>
-                <div class="row mt-4">
+                <div class="row mt-4" id="laptop">
                     <div class="col-md-4">
                         <div class="card p-2 h-100"  >
                             <img src="img/Lap1.PNG" class="card-img-top" alt="Producto">
@@ -275,7 +296,7 @@
                 </div>
 
 
-                <div class="row mt-4">
+                <div class="row mt-4" id="all-in-one">
                     <div class="col-md-4">
                         <div class="card p-2 h-100"  >
                             <img src="img/Esc1.PNG" class="card-img-top" alt="Producto">
@@ -320,7 +341,7 @@
                 </div>
 
 
-                <div class="row mt-4">
+                <div class="row mt-4" id="disco-externos">
                     <div class="col-md-4">
                         <div class="card p-2 h-100"  >
                             <img src="img/Dis1.PNG" class="card-img-top" alt="Producto">
@@ -364,7 +385,7 @@
                     </div>            
                 </div>
 
-                <div class="row mt-4">
+                <div class="row mt-4" id="impresora-multifuncional">
                     <div class="col-md-4">
                         <div class="card p-2 h-100"  >
                             <img src="img/Imp1.PNG" class="card-img-top" alt="Producto">
@@ -408,7 +429,7 @@
                     </div>            
                 </div>
 
-                <div class="row mt-4">
+                <div class="row mt-4" id="teclado-normal">
                     <div class="col-md-4">
                         <div class="card p-2 h-100"  >
                             <img src="img/Tec1.PNG" class="card-img-top" alt="Producto">
@@ -522,12 +543,9 @@
 
 
 <script type="text/javascript" src="fontawesome/js/all.min.js"></script>
-
-	<script type="text/javascript" src="js/jquery.min.js"></script>
-	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
-  
-  
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script> 
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script> 
 </body>
 
 </html>
